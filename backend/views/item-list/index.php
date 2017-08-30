@@ -1,15 +1,16 @@
+
 <?php
 
 use yii\helpers\Html;
 use yii\grid\GridView;
 ?>
 <div class="container" >
-    <h3><u> <center><div class="intro-lead-in" >AVAILABLE ITEMES LIST </div> <center></u> </h3>
+    <h3><b><center><div class="intro-lead-in" >MARKET</div> <center></b></h3>
 
 
     <?php foreach ($shops as $abc): ?>
 
-            <p><?= $abc->NameShop ?> </p>
+            <h3><p><?= $abc->NameShop?></p></center></h3>
 
                 <?php foreach ($abc->getItemes() as $index => $itemes):?>
                 <?php if ($index % 3 == 0): ?> <div class="row"> <?php endif; ?>
@@ -20,7 +21,7 @@ use yii\grid\GridView;
 
                             <?= $itemes->Description ?> ,
                             <?= $itemes->Quantity ?>,
-                            <?= $itemes->Price?> ,
+                            <font color="red"><?= $itemes->Price ?></font>,
                             <?= $itemes->Categories ?>,
                             <?= $itemes->DedicatePers?>
                             <hr><img src="http://www.nyc.gov.rw/uploads/RTEmagicC_Tshirt.jpg.jpg" alt="google.com">
@@ -55,18 +56,3 @@ use yii\grid\GridView;
 
     <?php endforeach; ?>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
