@@ -32,24 +32,29 @@ use yii\grid\GridView;
 
                                 </form>
                             </div>
-
-
                         </li>
 
 
                     </ul>
                 </div>
+
                 </div>
-        <?php if ($index % 3 == 0): ?> </div> <?php endif; ?>
 
 
 
-            <?php endforeach;?>
+
+
+        <?php if (($index + 1) % 3 == 0): ?> </div><?php endif; ?>
+
+    <?php endforeach;?>
+
+
+
         </div>
-
         <hr>
 
     <?php endforeach; ?>
+</div>
 
 
 
