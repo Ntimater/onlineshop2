@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d7ee44fb87bf7785f3eb613fd7ff3d5",
+    "content-hash": "8f45a2316d65cc0003b1b92526badc11",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -3044,23 +3044,23 @@
         },
         {
             "name": "yiisoft/yii2-gii",
-            "version": "dev-master",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "ad39c5b75376a07085b3a7ed9407afabbf829656"
+                "reference": "6777f007457b4f18597d03ac707581e59a3084b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/ad39c5b75376a07085b3a7ed9407afabbf829656",
-                "reference": "ad39c5b75376a07085b3a7ed9407afabbf829656",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/6777f007457b4f18597d03ac707581e59a3084b6",
+                "reference": "6777f007457b4f18597d03ac707581e59a3084b6",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/typeahead.js": "0.10.* | ~0.11.0",
                 "phpspec/php-diff": ">=1.0.2",
-                "yiisoft/yii2": "~2.0.4",
-                "yiisoft/yii2-bootstrap": "~2.0.0"
+                "yiisoft/yii2": ">=2.0.4",
+                "yiisoft/yii2-bootstrap": "~2.0"
             },
             "type": "yii2-extension",
             "extra": {
@@ -3093,14 +3093,15 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2017-08-02T13:12:51+00:00"
+            "time": "2016-04-30T16:12:40+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "yiisoft/yii2": 20,
-        "yiisoft/yii2-jui": 20
+        "yiisoft/yii2-jui": 20,
+        "yiisoft/yii2-gii": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
