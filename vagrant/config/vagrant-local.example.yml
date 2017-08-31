@@ -1,10 +1,10 @@
 # Your personal GitHub token
-github_token: <your-personal-github-token>
+github_token: ffd7e6fea9195e41f679ec6a5680ebf8c9576fb3
 # Read more: https://github.com/blog/1509-personal-api-tokens
 # You can generate it here: https://github.com/settings/tokens
 
 # Guest OS timezone
-timezone: Europe/London
+timezone: Japan/Tokyo
 
 # Are we need check box updates for every 'vagrant up'?
 box_check_update: false

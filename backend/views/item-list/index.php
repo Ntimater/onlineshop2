@@ -1,3 +1,4 @@
+
 <?php
 use yii\helpers\Html;
 use yii\grid\GridView;
@@ -8,7 +9,11 @@ use yii\grid\GridView;
 
     <?php foreach ($shops as $abc): ?>
 
+<<<<<<< HEAD
         <h3><p><?= $abc->NameShop?></p></center></h3>
+=======
+            <h3><p><?= $abc->NameShop?></p></center></h3>
+>>>>>>> d168206b05d485086fe6f8f857d07e68049717a4
 
         <?php foreach ($abc->getItemes() as $index => $itemes):?>
         <?php if ($index % 3 == 0): ?> <div class="row"> <?php endif; ?>
@@ -17,6 +22,7 @@ use yii\grid\GridView;
                  <ul>
                     <li>
 
+<<<<<<< HEAD
                         <?= $itemes->Description ?> ,
                         <?= $itemes->Quantity ?>,
                         <font color="red"><?= $itemes->Price ?></font>,
@@ -28,6 +34,19 @@ use yii\grid\GridView;
                                 <input type="radio" name="gender" value="1"> Buy
                                 <input type="radio" name="gender" value="2"> Booking
                                 <input type="submit" value="Approve">
+=======
+                            <?= $itemes->Description ?> ,
+                            <?= $itemes->Quantity ?>,
+                            <font color="red"><?= $itemes->Price ?></font>,
+                            <?= $itemes->Categories ?>,
+                            <?= $itemes->DedicatePers?>
+                            <hr><img src="http://www.nyc.gov.rw/uploads/RTEmagicC_Tshirt.jpg.jpg" alt="google.com">
+                            <div class="radio-group">
+                                <form action="">
+                                    <input type="radio" name="gender" value="1"> Buy
+                                    <input type="radio" name="gender" value="2"> Booking
+                                    <input type="submit" value="Approve">
+>>>>>>> d168206b05d485086fe6f8f857d07e68049717a4
 
                             </form>
                         </div>
@@ -48,4 +67,8 @@ use yii\grid\GridView;
     <?php endforeach;?>
         <hr>
     <?php endforeach; ?>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> d168206b05d485086fe6f8f857d07e68049717a4
